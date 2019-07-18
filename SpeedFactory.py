@@ -246,8 +246,8 @@ if __name__ == '__main__':
         #EXPERIMENT 1 - UNIFORM[10:20]
         ###########################
         args.Demand_Max = 20
-        args.Inv_Max = 100
-        args.Inv_Min = -20
+        args.Inv_Max = 10
+        args.Inv_Min = 0#-20
         args.OrderFastMin = -5
         args.OrderFastMax = 20
         args.OrderSlowMin = 0
